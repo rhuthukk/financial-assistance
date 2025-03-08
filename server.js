@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // Import routes
 const authRoutes = require('./routes/auth'); // Assuming auth routes were not renamed
-const budgetRoutes = require('./routes/budgetRoutes'); // Updated route path
+const budgetRoutes = require('./routes/budgetRoutes'); // Corrected route path
 
 const app = express();
 const PORT = process.env.PORT || 5000;
